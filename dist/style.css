@@ -1,0 +1,66 @@
+body {
+    font-family: 'Times New Roman', sans-serif;
+    background-image: url("https://images.unsplash.com/photo-1616791154706-9aabed8a7c43?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYyNjg2Nzc5MA&ixlib=rb-1.2.1&q=80&w=400");
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #45b6eb;
+    color: #fff;
+    font-size: 1.2vw;
+   }
+
+  #heading {
+    max-width: 750px;
+    margin: 4rem auto;
+    padding: .6rem;
+  }
+  #main {
+      padding: 0% 20% 0% 20%;
+  }
+
+  #title {
+    font-size: 2.2rem;
+    text-align: center;
+    line-height: 1.2;
+    padding: .6rem;
+  }
+
+  #description {
+    font-size: 1.1rem;
+    text-align: center;
+    padding: .2rem;
+  }
+
+  #survey-form {
+    background-color: #2222425d;
+    padding: 3rem 2.5rem;
+    border-radius: 7px;
+  }
+
+  #submit {
+    background: #000000;
+    color: #fff;
+    padding: .7rem;
+    font-size: 1.15rem;
+    cursor: pointer;
+    width: 750px;
+  }
+
+  #submit:hover {
+    background: rgb(128,128,128);
+  }
+
+.form {
+  width: 100%;
+  padding: .7rem;
+  border-radius: 6px;
+  font-size: 1.0rem;
+  border: none;
+}
+  @media only screen and (max-width:480px){
+
+  #main {
+    padding: 0% 0% 0% 0%;
+    }
+  }
